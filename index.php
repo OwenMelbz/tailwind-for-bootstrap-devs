@@ -71,30 +71,30 @@
 
         <h2>Tailwind</h2>
 
-        <div class="tw-border-indigo-300 tw-text-blue-800 tw-bg-indigo-200 tw-my-4 tw-py-3 tw-px-3 rounded tw-border tw-border-solid" role="alert">
+        <div class="tw-rounded tw-border-indigo-300 tw-text-blue-800 tw-bg-indigo-200 tw-my-4 tw-py-3 tw-px-3 tw-border tw-border-solid" role="alert">
             A simple primary alert—check it out!
         </div>
 
-        <div class="tw-border-gray-400 tw-text-gray-800 tw-bg-gray-300 tw-my-4 tw-py-3 tw-px-3 rounded tw-border tw-border-solid" role="alert">
+        <div class="tw-rounded tw-border-gray-400 tw-text-gray-800 tw-bg-gray-300 tw-my-4 tw-py-3 tw-px-3 tw-border tw-border-solid" role="alert">
             A simple secondary alert—check it out!
         </div>
 
-        <div class="tw-border-green-300 tw-text-green-900 tw-bg-green-200 tw-my-4 tw-py-3 tw-px-3 rounded tw-border tw-border-solid" role="alert">
+        <div class="tw-rounded tw-border-green-300 tw-text-green-900 tw-bg-green-200 tw-my-4 tw-py-3 tw-px-3 tw-border tw-border-solid" role="alert">
             A simple success alert—check it out!
         </div>
-        <div class="tw-border-red-400 tw-text-red-900 tw-bg-red-300 tw-my-4 tw-py-3 tw-px-3 rounded tw-border tw-border-solid" role="alert">
+        <div class="tw-rounded tw-border-red-400 tw-text-red-900 tw-bg-red-300 tw-my-4 tw-py-3 tw-px-3 tw-border tw-border-solid" role="alert">
             A simple danger alert—check it out!
         </div>
-        <div class="tw-border-orange-300 tw-text-yellow-800 tw-bg-orange-200 tw-my-4 tw-py-3 tw-px-3 rounded tw-border tw-border-solid" role="alert">
+        <div class="tw-rounded tw-border-orange-300 tw-text-yellow-800 tw-bg-orange-200 tw-my-4 tw-py-3 tw-px-3 tw-border tw-border-solid" role="alert">
             A simple warning alert—check it out!
         </div>
-        <div class="tw-border-teal-300 tw-text-teal-800 tw-bg-teal-100 tw-my-4 tw-py-3 tw-px-3 rounded tw-border tw-border-solid" role="alert">
+        <div class="tw-rounded tw-border-teal-300 tw-text-teal-800 tw-bg-teal-100 tw-my-4 tw-py-3 tw-px-3 tw-border tw-border-solid" role="alert">
             A simple info alert—check it out!
         </div>
-        <div class="tw-border-white tw-text-gray-600 tw-bg-white tw-my-4 tw-py-3 tw-px-3 rounded tw-border tw-border-solid" role="alert">
+        <div class="tw-rounded tw-border-white tw-text-gray-600 tw-bg-white tw-my-4 tw-py-3 tw-px-3 tw-border tw-border-solid" role="alert">
             A simple light alert—check it out!
         </div>
-        <div class="tw-border-gray-500 tw-text-gray-900 tw-bg-gray-400 tw-my-4 tw-py-3 tw-px-3 rounded tw-border tw-border-solid" role="alert">
+        <div class="tw-rounded tw-border-gray-500 tw-text-gray-900 tw-bg-gray-400 tw-my-4 tw-py-3 tw-px-3 tw-border tw-border-solid" role="alert">
             A simple dark alert—check it out!
         </div>
 
@@ -145,13 +145,13 @@
         <h2>Tailwind</h2>
 
         <nav aria-label="breadcrumb">
-            <ol class="tw-bg-gray-200 tw-px-4 tw-py-3 tw-text-gray-600 rounded tw-list-none tw-flex">
+            <ol class="rounded tw-bg-gray-200 tw-px-4 tw-py-3 tw-text-gray-600 tw-list-none tw-flex">
                 <li aria-current="page">Home</li>
             </ol>
         </nav>
 
         <nav aria-label="breadcrumb">
-            <ol class="tw-bg-gray-200 tw-px-4 tw-py-3 tw-text-gray-600 rounded tw-list-none tw-flex">
+            <ol class="rounded tw-bg-gray-200 tw-px-4 tw-py-3 tw-text-gray-600 tw-list-none tw-flex">
                 <li><a class="tw-text-blue-500 hover:tw-underline" href="#">Home</a></li>
                 <li class="tw-px-2">/</li>
                 <li aria-current="page">Library</li>
@@ -159,7 +159,7 @@
         </nav>
 
         <nav aria-label="breadcrumb">
-            <ol class="tw-bg-gray-200 tw-px-4 tw-py-3 tw-text-gray-600 rounded tw-list-none tw-flex">
+            <ol class="rounded tw-bg-gray-200 tw-px-4 tw-py-3 tw-text-gray-600 tw-list-none tw-flex">
                 <li><a class="tw-text-blue-500 hover:tw-underline" href="#">Home</a></li>
                 <li class="tw-px-2">/</li>
                 <li><a class="tw-text-blue-500 hover:tw-underline" href="#">Library</a></li>
@@ -217,7 +217,23 @@
         <button type="button" class="tw-border-gray-100 tw-text-gray-100 hover:tw-bg-gray-100 hover:tw-text-black tw-text-white tw-bg-white tw-border tw-border-solid tw-rounded tw-border-0 tw-px-3 tw-py-2">Light</button>
         <button type="button" class="tw-border-gray-900 tw-text-gray-900 hover:tw-bg-gray-900 hover:tw-text-white tw-text-black tw-bg-white tw-border tw-border-solid tw-rounded tw-border-0 tw-px-3 tw-py-2">Dark</button>
 
+        <h1>Button Groups</h1>
 
+        <h2>Bootstrap</h2>
+
+        <div class="btn-group">
+            <button type="button" class="btn btn-secondary">Left</button>
+            <button type="button" class="btn btn-secondary">Middle</button>
+            <button type="button" class="btn btn-secondary">Right</button>
+        </div>
+
+        <h2>Tailwind</h2>
+
+        <div class="tw-flex">
+            <button type="button" class="tw-bg-gray-600 hover:tw-bg-gray-700 tw-text-white tw-rounded tw-border-0 tw-px-3 tw-py-2 tw-rounded-r-none">Left</button>
+            <button type="button" class="tw-bg-gray-600 hover:tw-bg-gray-700 tw-text-white tw-border-0 tw-px-3 tw-py-2 tw-rounded-none">Middle</button>
+            <button type="button" class="tw-bg-gray-600 hover:tw-bg-gray-700 tw-text-white tw-rounded tw-border-0 tw-px-3 tw-py-2 tw-rounded-l-none">Right</button>
+        </div>
     </div>
 </body>
 </html>
